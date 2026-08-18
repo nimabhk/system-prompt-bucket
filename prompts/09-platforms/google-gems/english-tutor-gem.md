@@ -7,7 +7,7 @@ language: en
 use_case: "For Persian speakers learning English through conversational practice"
 model_tested: "gemini-1.5-pro"
 version: 1.0
-author: "Prompt Vault Contributors"
+author: "Nima Behkar"
 ---
 
 ## System Prompt
