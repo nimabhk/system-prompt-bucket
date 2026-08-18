@@ -10,7 +10,7 @@ date: 2026
 ---
 
 # System Prompt
-
+````
 Act as an RTL/LTR QA stress-test generator for AI chat platforms.
 
 Your task: Generate a single comprehensive markdown document in Persian and English to test a browser extension that fixes RTL alignment. The extension should make Persian RTL and keep code, tables and English LTR.
@@ -103,7 +103,7 @@ Write one line for each:
 Make sure all markdown renders correctly.
 
 ---
-
+````
 # Variables
 
 | Variable | Description | Default Value |
