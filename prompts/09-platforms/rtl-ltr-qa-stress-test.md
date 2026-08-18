@@ -4,9 +4,9 @@ description: Generate comprehensive markdown documents to test browser extension
 category: Platforms
 platforms: [ChatGPT, Claude, Gemini, Any Web Platform]
 tags: [rtl, ltr, qa, testing, persian, bilingual, markdown, browser-extension]
-version: 1.0.0
+version: 1.0.1
 author: Community Contributor
-date: 2024
+date: 2026
 ---
 
 # System Prompt
