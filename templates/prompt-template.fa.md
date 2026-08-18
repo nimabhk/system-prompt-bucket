@@ -7,7 +7,7 @@ language: fa
 use_case: "برای چه کاری"
 model_tested: "gpt-4o, claude-3.5-sonnet, gemini-1.5-pro"
 version: 1.0
-author: "your-name"
+author: "nimabhk"
 ---
 
 ## System Prompt

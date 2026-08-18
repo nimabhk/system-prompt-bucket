@@ -4,7 +4,9 @@
 
 This repo contains **no code** - only well-structured `.md` files you can copy-paste as system instructions.
 
-**Languages: English & Persian (Farsi)**
+**🌐 Languages: English & Persian (Farsi)** | **📚 [مستندات فارسی](#persian-documentation)**
+
+---
 
 ## Table of Contents
 
@@ -17,7 +19,7 @@ This repo contains **no code** - only well-structured `.md` files you can copy-p
 - [Platform-Specific Tips](#platform-specific-tips)
 - [Using the Template](#using-the-template)
 - [Contributing](#contributing)
-- [Community Guidelines](#community-guidelines)
+- [Multi-Language Support](#multi-language-support)
 - [FAQ](#faq)
 - [Persian Documentation](#persian-documentation)
 
@@ -31,7 +33,7 @@ This repo contains **no code** - only well-structured `.md` files you can copy-p
 
 🌐 **Multi-Platform**: Compatible with OpenAI GPTs, Google Gems, Claude Projects, Perplexity, and any Agent Framework
 
-🌍 **Bilingual**: All prompts available in English and Persian (Farsi)
+🌍 **Multi-Language**: Prompts available in multiple languages (English, Persian, and more coming soon)
 
 🤝 **Community-Driven**: Built by contributors for contributors
 
@@ -113,7 +115,7 @@ category: Category Name
 platforms: [Platform1, Platform2]
 tags: [tag1, tag2, tag3]
 version: 1.0.0
-author: Author Name
+author: "Nima Behkar"
 date: 2024
 ---
 ```
@@ -219,7 +221,7 @@ Update all metadata fields:
 - `platforms`: List compatible platforms
 - `tags`: 5-10 relevant keywords
 - `version`: Start with 1.0.0
-- `author`: Your name or "Community Contributor"
+- `author`: Your name (e.g., "Nima Behkar") or GitHub handle (e.g., "nimabhk")
 - `date`: Current year
 
 #### Step 3: Write System Prompt
@@ -308,7 +310,7 @@ We welcome contributions! Here's how to participate:
    - Testing notes
 
 6. **Review Process**
-   - Maintainers will review within 1 week
+   - Review will be completed within 1 week
    - Feedback will be provided if changes needed
    - Once approved, your prompt will be merged!
 
@@ -334,34 +336,66 @@ We welcome contributions! Here's how to participate:
 **Good**: `seo-blog-writer.md`, `code-reviewer.md`, `math-tutor.md`  
 **Bad**: `prompt1.md`, `my-prompt.md`, `NEW.md`
 
-For Persian versions, add `.fa` before `.md`:  
-`seo-blog-writer.fa.md`, `critical-thinker.fa.md`
+For non-English versions, add language code before `.md`:
+- Persian: `seo-blog-writer.fa.md`
+- Spanish: `seo-blog-writer.es.md`
+- French: `seo-blog-writer.fr.md`
+- Arabic: `seo-blog-writer.ar.md`
+- Any language: `prompt-name.[lang-code].md`
 
-## Community Guidelines
+---
 
-### Recognition System
-Contributors are recognized in our Hall of Fame (coming soon):
-- 🥇 **Gold**: 10+ accepted prompts
-- 🥈 **Silver**: 5-9 accepted prompts
-- 🥉 **Bronze**: 1-4 accepted prompts
+## Multi-Language Support
 
-### Code of Conduct
-- Be respectful and inclusive
-- Provide constructive feedback
-- Credit original sources
-- No spam or self-promotion
-- Keep prompts practical and useful
+This repository supports system prompts in **any language**! We encourage contributors to share prompts in their native languages.
 
-### Reporting Issues
-Found a problem? Have a suggestion?
-- Open an Issue on GitHub
-- Label appropriately (bug, enhancement, question)
-- Provide clear details
+### Language Code Convention
+
+When creating a prompt in a language other than English:
+1. Create the English version first (if possible): `prompt-name.md`
+2. Create translated version with language code: `prompt-name.[code].md`
+
+**Supported Language Codes:**
+- `.fa.md` - Persian/Farsi
+- `.es.md` - Spanish
+- `.fr.md` - French
+- `.de.md` - German
+- `.ar.md` - Arabic
+- `.zh.md` - Chinese
+- `.ja.md` - Japanese
+- `.ru.md` - Russian
+- And any other ISO 639-1 language code
+
+### Example Structure
+
+```
+prompts/01-core-roles/
+├── critical-thinker.md          # English (default)
+├── critical-thinker.fa.md       # Persian
+├── critical-thinker.es.md       # Spanish
+└── critical-thinker.ar.md       # Arabic
+```
+
+### Contributing Translations
+
+You can contribute by:
+1. **Translating existing prompts** to your native language
+2. **Creating original prompts** in your language
+3. **Improving translations** submitted by others
+
+All prompts should follow the same structure regardless of language:
+- YAML frontmatter (can include `language: fa` field)
+- System Prompt section
+- Variables (if applicable)
+- Example Usage
+- Notes & Version History
+
+---
 
 ## FAQ
 
-**Q: Can I submit prompts in languages other than English and Persian?**  
-A: Currently we support English and Persian. We may expand to more languages based on community interest.
+**Q: Can I submit prompts in languages other than English?**  
+A: Yes! We welcome prompts in any language. Use the language code convention (e.g., `.fa.md` for Persian, `.es.md` for Spanish). See [Multi-Language Support](#multi-language-support) section.
 
 **Q: Do I need to be an expert in prompt engineering?**  
 A: No! If you have a prompt that works well for you, share it. The community will help improve it.
@@ -382,9 +416,9 @@ A: This is an open-source community project. Prompts are meant to be shared and 
 
 ## Persian Documentation
 
-برای مستندات فارسی، به فایل‌های زیر مراجعه کنید:
+📚 **برای مستندات کامل فارسی، به بخش‌های زیر مراجعه کنید:**
 
-- **[CONTRIBUTING.fa.md](CONTRIBUTING.fa.md)** - راهنمای مشارکت به فارسی
+- **[CONTRIBUTING.fa.md](CONTRIBUTING.fa.md)** - راهنمای کامل مشارکت به فارسی
 - **[templates/prompt-template.fa.md](templates/prompt-template.fa.md)** - تمپلیت فارسی برای ایجاد پرامپت جدید
 
 ### دسته‌بندی‌ها به فارسی
@@ -402,21 +436,38 @@ A: This is an open-source community project. Prompts are meant to be shared and 
 | ۰۹ | پلتفرم‌ها | مخصوص پلتفرم‌ها | GPTها، Gems، پروژه‌های Claude |
 | ۱۰ | ترجمه و بومی‌سازی | ترجمه، تطبیق فرهنگی | مترجم، بومی‌ساز |
 
-### نحوه مشارکت به فارسی
+### شروع سریع (فارسی)
 
-۱. **ریپازیتوری را فورک کنید**
-۲. **برنچ جدید بسازید**
-۳. **پرامپت خود را ایجاد کنید** (از تمپلیت فارسی استفاده کنید)
-۴. **تست کنید** (حداقل با ۲ مدل مختلف)
-۵. **کامیت و پوش کنید**
-۶. **Pull Request باز کنید**
+۱. **مرور دسته‌بندی‌ها**: به پوشه `/prompts/` بروید و دسته‌بندی مورد نظر را انتخاب کنید
+۲. **انتخاب پرامپت**: فایل مناسب را پیدا کنید (مثلاً `seo-blog-writer.md`)
+۳. **کپی سیستم پرامپت**: بخش "System Prompt" را کپی کنید
+۴. **استفاده در پلتفرم**: در ChatGPT، Google Gems، Claude یا هر پلتفرم دیگری استفاده کنید
+۵. **شخصی‌سازی**: متغیرها را بر اساس نیاز خود تنظیم کنید
 
-برای راهنمای کامل، فایل [CONTRIBUTING.fa.md](CONTRIBUTING.fa.md) را مطالعه کنید.
+### نحوه مشارکت (خلاصه)
+
+۱. ریپازیتوری را فورک کنید
+۲. برنچ جدید بسازید
+۳. پرامپت خود را ایجاد کنید (از تمپلیت استفاده کنید)
+۴. تست کنید (حداقل با ۲ مدل مختلف)
+۵. کامیت و پوش کنید
+۶. Pull Request باز کنید
+
+📖 **برای راهنمای کامل مشارکت، فایل [CONTRIBUTING.fa.md](CONTRIBUTING.fa.md) را مطالعه کنید.**
+
+### پشتیبانی از زبان‌های مختلف
+
+این مخزن از پرامپت‌ها به **هر زبانی** پشتیبانی می‌کند! شما می‌توانید:
+- پرامپت‌های موجود را به زبان مادری خود ترجمه کنید
+- پرامپت‌های اصلی به زبان خودتان ایجاد کنید
+- از کد زبان در نام فایل استفاده کنید (مثلاً `.fa.md` برای فارسی، `.es.md` برای اسپانیایی)
+
+برای اطلاعات بیشتر، بخش [Multi-Language Support](#multi-language-support) را ببینید.
 
 ### سوالات متداول فارسی
 
-**سوال**: آیا می‌توانم پرامپت به زبان‌های دیگر ارسال کنم؟  
-**جواب**: در حال حاضر فقط انگلیسی و فارسی پشتیبانی می‌شود.
+**سوال**: آیا می‌توانم پرامپت به زبان‌های دیگر غیر از فارسی ارسال کنم؟  
+**جواب**: بله! ما از پرامپت‌ها به هر زبانی استقبال می‌کنیم. فقط از کد زبان در نام فایل استفاده کنید.
 
 **سوال**: آیا باید متخصص باشم؟  
 **جواب**: خیر! اگر پرامپتی دارید که برایتان کار می‌کند، به اشتراک بگذارید.

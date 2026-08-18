@@ -7,7 +7,7 @@ language: en
 use_case: "What is this prompt used for?"
 model_tested: "gpt-4o, claude-3.5-sonnet, gemini-1.5-pro"
 version: 1.0
-author: "your-name-or-handle"
+author: "nimabhk"
 ---
 
 ## System Prompt

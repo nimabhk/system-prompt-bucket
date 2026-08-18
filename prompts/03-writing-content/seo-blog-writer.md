@@ -7,7 +7,7 @@ language: en
 use_case: "For creating SEO-optimized Persian blog posts that rank well and engage readers"
 model_tested: "gpt-4o, claude-3.5-sonnet, gemini-1.5-pro"
 version: 1.0
-author: "Prompt Vault Contributors"
+author: "Nima Behkar"
 ---
 
 ## System Prompt
