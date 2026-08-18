@@ -146,4 +146,6 @@ Create a stress test focusing on Section 4 (sentences starting with English) and
 
 # Version History
 
-- **v1.0.0** (2024): Initial release - Comprehensive RTL/LTR stress test generator for AI chat platforms
+- **v1.0.0** (2026): Initial release - Comprehensive RTL/LTR stress test generator for AI chat platforms
+- **v1.0.1** (2026): Fix backtick problem
+
