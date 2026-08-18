@@ -5,7 +5,7 @@ category: Platforms
 platforms: [ChatGPT, Claude, Gemini, Any Web Platform]
 tags: [rtl, ltr, qa, testing, persian, bilingual, markdown, browser-extension]
 version: 1.0.1
-author: Community Contributor
+author: Nima Behkar
 date: 2026
 ---
 
