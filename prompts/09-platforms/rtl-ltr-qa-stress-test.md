@@ -4,9 +4,9 @@ description: Generate comprehensive markdown documents to test browser extension
 category: Platforms
 platforms: [ChatGPT, Claude, Gemini, Any Web Platform]
 tags: [rtl, ltr, qa, testing, persian, bilingual, markdown, browser-extension]
-version: 1.0.0
-author: "Nima Behkar"
-date: 2024
+version: 1.0.1
+author: Nima Behkar
+date: 2026
 ---
 
 # System Prompt
@@ -105,7 +105,7 @@ Make sure all markdown renders correctly.
 ````
 
 ---
-
+````
 # Variables
 
 | Variable | Description | Default Value |
@@ -148,4 +148,6 @@ Create a stress test focusing on Section 4 (sentences starting with English) and
 
 # Version History
 
-- **v1.0.0** (2024): Initial release - Comprehensive RTL/LTR stress test generator for AI chat platforms
+- **v1.0.0** (2026): Initial release - Comprehensive RTL/LTR stress test generator for AI chat platforms
+- **v1.0.1** (2026): Fix backtick problem
+
