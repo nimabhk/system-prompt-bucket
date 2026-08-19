@@ -10,6 +10,7 @@ date: 2026
 ---
 
 # System Prompt
+
 ````
 Act as an RTL/LTR QA stress-test generator for AI chat platforms.
 
@@ -101,6 +102,7 @@ Write one line for each:
 - A very long mixed sentence with parentheses: هوش مصنوعی (Artificial Intelligence یا AI) که توسط شرکت‌هایی مثل Google و OpenAI توسعه یافته...
 
 Make sure all markdown renders correctly.
+````
 
 ---
 ````

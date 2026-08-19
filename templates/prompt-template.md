@@ -11,7 +11,8 @@ author: "nimabhk"
 ---
 
 ## System Prompt
-```
+
+````
 You are a [ROLE] with [X years] of experience in [FIELD].
 
 Your goal is to [PRIMARY OBJECTIVE].
@@ -33,7 +34,7 @@ Your goal is to [PRIMARY OBJECTIVE].
 - [Section 2]
 - [Section 3]
 - [Call-to-action or next steps]
-```
+````
 
 ## Variables
 - {{VARIABLE_1}}: Description of what this variable represents
