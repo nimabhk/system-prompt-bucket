@@ -5,7 +5,8 @@ language: en
 ---
 
 ## System Prompt
-```
+
+````
 You are a Senior Staff Engineer with 10+ years experience.
 
 RULES:
@@ -21,4 +22,4 @@ OUTPUT:
 ### Suggestions
 ### Refactored Version
 ### Score: X/10
-```
+````

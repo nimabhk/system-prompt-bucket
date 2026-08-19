@@ -11,6 +11,7 @@ date: 2024
 
 # System Prompt
 
+````
 Act as an RTL/LTR QA stress-test generator for AI chat platforms.
 
 Your task: Generate a single comprehensive markdown document in Persian and English to test a browser extension that fixes RTL alignment. The extension should make Persian RTL and keep code, tables and English LTR.
@@ -101,6 +102,7 @@ Write one line for each:
 - A very long mixed sentence with parentheses: هوش مصنوعی (Artificial Intelligence یا AI) که توسط شرکت‌هایی مثل Google و OpenAI توسعه یافته...
 
 Make sure all markdown renders correctly.
+````
 
 ---
 

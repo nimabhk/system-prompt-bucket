@@ -4,7 +4,7 @@
 
 This repo contains **no code** - only well-structured `.md` files you can copy-paste as system instructions.
 
-**🌐 Languages: English & Persian (Farsi)** | **📚 [مستندات فارسی](#persian-documentation)**
+**🌐 Languages: English, Persian (Farsi) & More** | **[🇮🇷 مستندات فارسی](#persian-documentation)**
 
 ---
 
@@ -341,7 +341,11 @@ For non-English versions, add language code before `.md`:
 - Spanish: `seo-blog-writer.es.md`
 - French: `seo-blog-writer.fr.md`
 - Arabic: `seo-blog-writer.ar.md`
-- Any language: `prompt-name.[lang-code].md`
+- German: `seo-blog-writer.de.md`
+- Chinese: `seo-blog-writer.zh.md`
+- **Any language**: `prompt-name.[lang-code].md`
+
+You can create prompts in **any language** - just use the appropriate ISO 639-1 language code!
 
 ---
 
@@ -395,7 +399,7 @@ All prompts should follow the same structure regardless of language:
 ## FAQ
 
 **Q: Can I submit prompts in languages other than English?**  
-A: Yes! We welcome prompts in any language. Use the language code convention (e.g., `.fa.md` for Persian, `.es.md` for Spanish). See [Multi-Language Support](#multi-language-support) section.
+A: Yes! We welcome prompts in **any language**. Use the language code convention (e.g., `.fa.md` for Persian, `.es.md` for Spanish, `.fr.md` for French, etc.). See [Multi-Language Support](#multi-language-support) section.
 
 **Q: Do I need to be an expert in prompt engineering?**  
 A: No! If you have a prompt that works well for you, share it. The community will help improve it.
@@ -477,8 +481,9 @@ A: This is an open-source community project. Prompts are meant to be shared and 
 
 ---
 
-Made with ❤️ for the prompt engineering community
+Made with ❤️ by **Nima Behkar** ([@nimabhk](https://github.com/nimabhk)) for the prompt engineering community
 
-**Contributors**: [Your Name Here](https://github.com/yourusername)  
+**Author**: Nima Behkar  
+**Contributors**: [See all contributors](https://github.com/nimabhk/prompt-vault/graphs/contributors)  
 **License**: MIT License  
 **Version**: 1.0.0
