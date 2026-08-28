@@ -1,4 +1,3 @@
-(prompts/01-core-roles/critical-thinker.fa.md
-prompts/03-writing-content/seo-blog-writer.fa.md
-prompts/01-core-roles/persian-critical-thinker.fa.md
-prompts/03-writing-content/persian-seo-blog-writer.fa.md)
+# Local tool state
+.mimosa/
+.remember/
