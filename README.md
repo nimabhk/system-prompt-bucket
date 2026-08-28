@@ -70,7 +70,8 @@ prompt-vault/
 │   ├── 06-productivity-life/   # Productivity, life hacks, planning
 │   ├── 07-creative-design/     # Creativity, design thinking, art
 │   ├── 08-agents-automation/   # AI agents, automation workflows
-│   │   └── autonomous-research-agent.md
+│   │   ├── autonomous-research-agent.md
+│   │   └── huggingface-model-extractor.md
 │   ├── 09-platforms/           # Platform-specific (GPTs, Gems, etc.)
 │   │   ├── google-gems/
 │   │   │   ├── english-tutor-gem.md
