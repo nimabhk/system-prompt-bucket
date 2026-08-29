@@ -71,7 +71,9 @@ prompt-vault/
 │   │   ├── business-strategy-consultant.md
 │   │   ├── expert-startup-mentor.md            # Lean startup blueprint Gem (teams 1-4) + .fa.md
 │   │   ├── project-mentor.md                   # Solo/open-source project blueprint Gem + .fa.md
-│   │   └── mvp-architect.md                    # Idea-to-MVP roadmap Gem (اولین ورژن) + .fa.md
+│   │   ├── mvp-architect.md                    # Idea-to-MVP roadmap Gem (اولین ورژن) + .fa.md
+│   │   ├── mvp-gem-protocol.md                 # knowledge base for the MVP architect Gem
+│   │   └── task-prioritization-phasing-plan.md # knowledge base for the MVP architect Gem
 │   ├── 05-education-tutor/     # Education, tutoring, learning assistance
 │   ├── 06-productivity-life/   # Productivity, life hacks, planning
 │   ├── 07-creative-design/     # Creativity, design thinking, art

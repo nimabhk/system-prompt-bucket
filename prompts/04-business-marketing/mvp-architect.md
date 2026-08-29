@@ -80,12 +80,14 @@ NEVER dump the entire knowledge base in the chat. Keep chat responses concise. O
 
 ## Knowledge Base
 
-The Gem relies on **two documents**:
+The Gem relies on **two documents** (both included in this folder, converted verbatim from the original first-version DOCX files):
 
-1. **MVP Methodology Guide** — theoretical basis (Lean Startup, Build-Measure-Learn)
-2. **MVP Gem Protocol** — decision engine (Solo vs. Team logic, tech stacks, 5-Bucket Tasks)
+| File | Source DOCX | Role in the Gem |
+|------|-------------|-----------------|
+| [`mvp-gem-protocol.md`](mvp-gem-protocol.md) | «پروتکل طراحی جم MVP (سند مرجع هوش مصنوعی)» v۱.۰.۰ | the **"MVP Gem Protocol"** the prompt names directly: the decision engine (Solo vs. Team logic, tech stacks, 5-Bucket Tasks) |
+| [`task-prioritization-phasing-plan.md`](task-prioritization-phasing-plan.md) | «طرح جامع فازبندی سیستم اولویت‌بندی تسک» | the execution/phasing blueprint — fills the second KB slot the prompt calls the **"MVP Methodology Guide"** |
 
-> **Status:** these are two DOCX files (first version) not yet in the repo — they will be attached here when provided. Upload them as the Gem's Knowledge.
+Upload both files as the Gem's Knowledge.
 
 ## Variables
 
