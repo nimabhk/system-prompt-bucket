@@ -10,6 +10,10 @@ version: 1.0
 author: "nimabhk"
 ---
 
+<!-- Folder rule: if this prompt has extra files (knowledge base, examples, media),
+     give it its own folder named after the prompt and put the extras in a kb/ (or examples/) subfolder.
+     See README "The Folder Rule" and CONTRIBUTING.md. -->
+
 ## System Prompt
 
 ````

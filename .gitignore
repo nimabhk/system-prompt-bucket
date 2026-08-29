@@ -1,3 +1,4 @@
 # Local tool state
 .mimosa/
 .remember/
+.DS_Store

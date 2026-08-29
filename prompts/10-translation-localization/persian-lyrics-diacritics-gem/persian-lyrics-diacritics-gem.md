@@ -326,7 +326,7 @@ END OF SYSTEM PROMPT
 
 ## Knowledge Base
 
-- [`tarane-irani.md`](tarane-irani.md) (same folder) — the Persian pronunciation reference the prompt relies on. Upload it as the Gem's **Knowledge** file; the system prompt references it by name.
+- [`tarane-irani.md`](kb/tarane-irani.md) (kb/ subfolder) — the Persian pronunciation reference the prompt relies on. Upload it as the Gem's **Knowledge** file; the system prompt references it by name.
 
 ## Variables
 

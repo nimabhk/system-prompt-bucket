@@ -71,15 +71,18 @@ prompt-vault/
 │   │   ├── business-strategy-consultant.md
 │   │   ├── expert-startup-mentor.md            # Lean startup blueprint Gem (teams 1-4) + .fa.md
 │   │   ├── project-mentor.md                   # Solo/open-source project blueprint Gem + .fa.md
-│   │   ├── mvp-architect.md                    # Idea-to-MVP roadmap Gem (اولین ورژن) + .fa.md
-│   │   ├── mvp-gem-protocol.md                 # knowledge base for the MVP architect Gem
-│   │   └── task-prioritization-phasing-plan.md # knowledge base for the MVP architect Gem
+│   │   └── mvp-architect/                      # Idea-to-MVP roadmap Gem (اولین ورژن)
+│   │       ├── mvp-architect.md
+│   │       ├── mvp-architect.fa.md
+│   │       └── kb/                             # its two knowledge-base documents
 │   ├── 05-education-tutor/     # Education, tutoring, learning assistance
 │   ├── 06-productivity-life/   # Productivity, life hacks, planning
 │   ├── 07-creative-design/     # Creativity, design thinking, art
-│   │   ├── garment-turntable-video-prompt-generator.md
-│   │   ├── image-to-prompt.md                  # Reference image → JSON prompt Gem + .fa.md
-│   │   └── examples/leather-cafe-racer-jacket/  # Input images, generated prompt, output video
+│   │   ├── garment-turntable-video-prompt-generator/   # folder rule: prompt + extras
+│   │   │   ├── garment-turntable-video-prompt-generator.md
+│   │   │   ├── garment-turntable-video-prompt-generator.fa.md
+│   │   │   └── examples/leather-cafe-racer-jacket/  # Input images, generated prompt, output video
+│   │   └── image-to-prompt.md                  # Reference image → JSON prompt Gem + .fa.md
 │   ├── 08-agents-automation/   # AI agents, automation workflows
 │   │   ├── autonomous-research-agent.md
 │   │   └── huggingface-model-extractor.md
@@ -90,19 +93,19 @@ prompt-vault/
 │   │   │   ├── narrative-scenario-gem.md       # Social narrative architect Gem (سناریو روایی)
 │   │   │   ├── narrative-scenario-gem.fa.md
 │   │   │   ├── strategic-relations-analyst-gem.md  # Relations strategist Gem (تحلیلگر استراتژیک روابط)
-│   │   │   ├── the-architect-gem.md            # Gem-builder meta Gem (EN + .fa.md)
-│   │   │   ├── Prompt_Frameworks.md            # ┐
-│   │   │   ├── Reasoning_Techniques.md         # │ five knowledge-base files
-│   │   │   ├── Safety_Guardrails.txt           # │ for the-architect-gem
-│   │   │   ├── Instruction_Samples.txt         # │ (referenced by name in its prompt)
-│   │   │   └── Gemini_Technical_Specs.md       # ┘
+│   │   │   └── the-architect-gem/              # Gem-builder meta Gem
+│   │   │       ├── the-architect-gem.md
+│   │   │       ├── the-architect-gem.fa.md
+│   │   │       └── kb/                         # its five knowledge-base files
 │   │   ├── openai-gpts/
 │   │   │   └── startup-validator-gpt.md
 │   │   └── rtl-ltr-qa-stress-test.md
 │   └── 10-translation-localization/  # Translation, localization, cultural adaptation
-│       ├── persian-lyrics-diacritics-gem.md
-│       ├── persian-lyrics-diacritics-gem.fa.md
-│       └── tarane-irani.md  # knowledge base for the lyrics gem
+│       ├── translation-localization-expert.md
+│       └── persian-lyrics-diacritics-gem/      # Lyrics diacritics Gem
+│           ├── persian-lyrics-diacritics-gem.md
+│           ├── persian-lyrics-diacritics-gem.fa.md
+│           └── kb/tarane-irani.md              # knowledge base for the lyrics gem
 ├── templates/
 │   ├── prompt-template.md      # English template
 │   └── prompt-template.fa.md   # Persian template
@@ -127,6 +130,30 @@ prompt-vault/
 | **10** | Translation & Localization | Translation, cultural adaptation | Translator, Localizer, Cultural Advisor | For multilingual and cross-cultural tasks |
 
 ## Standard Format
+
+### The Folder Rule (multi-file prompts)
+
+A simple prompt stays as a single `.md` file (plus its optional `.fa.md`) directly inside the category folder — this keeps the vault clean and uniform. As soon as a prompt has **any extra files** (knowledge-base documents, example media, sample outputs, …), it must get **its own folder** instead:
+
+```
+prompts/<category>/
+└── my-prompt-name/             # folder named exactly after the prompt
+    ├── my-prompt-name.md       # English system prompt
+    ├── my-prompt-name.fa.md    # Persian version (optional)
+    ├── kb/                     # ALL knowledge-base / reference files
+    │   ├── knowledge-doc-1.md
+    │   └── knowledge-doc-2.txt
+    └── examples/               # example runs: inputs, outputs, media (optional)
+        └── my-example-run/
+```
+
+Rules:
+- The folder name is the full name of the system prompt (kebab-case, matching the `.md` filename).
+- The two prompt files (`.md` + `.fa.md`) sit at the **root** of that folder — never inside `kb/`.
+- Knowledge-base and reference files go in the `kb/` subfolder and keep the exact filenames the system prompt references (Gems match knowledge files by name).
+- Example inputs/outputs and media go in the `examples/` subfolder, one subfolder per example run.
+- Never leave extra files loose in the category folder — that is what clutters it.
+- Link to `kb/` and `examples/` files with paths relative to the prompt file (e.g. `kb/my-doc.md`).
 
 Every prompt file follows this standardized structure:
 

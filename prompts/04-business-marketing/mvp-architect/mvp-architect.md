@@ -84,8 +84,8 @@ The Gem relies on **two documents** (both included in this folder, converted ver
 
 | File | Source DOCX | Role in the Gem |
 |------|-------------|-----------------|
-| [`mvp-gem-protocol.md`](mvp-gem-protocol.md) | «پروتکل طراحی جم MVP (سند مرجع هوش مصنوعی)» v۱.۰.۰ | the **"MVP Gem Protocol"** the prompt names directly: the decision engine (Solo vs. Team logic, tech stacks, 5-Bucket Tasks) |
-| [`task-prioritization-phasing-plan.md`](task-prioritization-phasing-plan.md) | «طرح جامع فازبندی سیستم اولویت‌بندی تسک» | the execution/phasing blueprint — fills the second KB slot the prompt calls the **"MVP Methodology Guide"** |
+| [`mvp-gem-protocol.md`](kb/mvp-gem-protocol.md) | «پروتکل طراحی جم MVP (سند مرجع هوش مصنوعی)» v۱.۰.۰ | the **"MVP Gem Protocol"** the prompt names directly: the decision engine (Solo vs. Team logic, tech stacks, 5-Bucket Tasks) |
+| [`task-prioritization-phasing-plan.md`](kb/task-prioritization-phasing-plan.md) | «طرح جامع فازبندی سیستم اولویت‌بندی تسک» | the execution/phasing blueprint — fills the second KB slot the prompt calls the **"MVP Methodology Guide"** |
 
 Upload both files as the Gem's Knowledge.
 

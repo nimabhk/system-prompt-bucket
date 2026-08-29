@@ -1,6 +1,6 @@
 # Reasoning_Techniques.md
 
-> **یادداشت مخزن:** نالج بیس شماره ۲ جم [the-architect-gem.md](the-architect-gem.md) — اینستراکشنز جم برای «منطق/استدلال» به همین نام ارجاع می‌دهد (Chain-of-Thought و Deep Thinking). تبدیل‌شده عیناً از نسخه DOCX «Reasoning_Techniques.md v2.docx» (ورژن ۲). چند تگ XML که در تبدیل DOCX بلعیده شده بود، بنا بر زمینه متن بازسازی شده است.
+> **یادداشت مخزن:** نالج بیس شماره ۲ جم [the-architect-gem.md](../the-architect-gem.md) — اینستراکشنز جم برای «منطق/استدلال» به همین نام ارجاع می‌دهد (Chain-of-Thought و Deep Thinking). تبدیل‌شده عیناً از نسخه DOCX «Reasoning_Techniques.md v2.docx» (ورژن ۲). چند تگ XML که در تبدیل DOCX بلعیده شده بود، بنا بر زمینه متن بازسازی شده است.
 
 ---
 

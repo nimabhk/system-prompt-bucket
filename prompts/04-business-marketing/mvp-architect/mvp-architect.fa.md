@@ -35,5 +35,5 @@ language: fa
 
 ## نکات
 
-- نالج بیس جم دو سند است (هر دو از DOCX ورژن اول، عیناً به مارک‌داون تبدیل شده و در همین پوشه قرار دارند): [mvp-gem-protocol.md](mvp-gem-protocol.md) (پروتکل طراحی جم MVP — موتور تصمیم) و [task-prioritization-phasing-plan.md](task-prioritization-phasing-plan.md) (طرح جامع فازبندی سیستم اولویت‌بندی تسک). هر دو فایل باید به نالج بیس جم اتچ شوند.
+- نالج بیس جم دو سند است (هر دو از DOCX ورژن اول، عیناً به مارک‌داون تبدیل شده و در همین پوشه قرار دارند): [mvp-gem-protocol.md](kb/mvp-gem-protocol.md) (پروتکل طراحی جم MVP — موتور تصمیم) و [task-prioritization-phasing-plan.md](kb/task-prioritization-phasing-plan.md) (طرح جامع فازبندی سیستم اولویت‌بندی تسک). هر دو فایل باید به نالج بیس جم اتچ شوند.
 - نسخه کامل انگلیسی اینستراکشنز + جدول متغیرها: [mvp-architect.md](mvp-architect.md)

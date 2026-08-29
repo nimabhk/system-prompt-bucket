@@ -85,11 +85,11 @@ The Gem's five knowledge-base files are all in this folder, referenced by name i
 
 | Repo file | Role in the Gem | Source (original KB file) |
 |-----------|-----------------|---------------------------|
-| [`Prompt_Frameworks.md`](Prompt_Frameworks.md) | Structure: CO-STAR & 4-Layer frameworks | `Prompt_Frameworks.docx` |
-| [`Reasoning_Techniques.md`](Reasoning_Techniques.md) | Logic: Chain-of-Thought & Deep Thinking patterns | `Reasoning_Techniques.md v2.docx` (v2) |
-| [`Safety_Guardrails.txt`](Safety_Guardrails.txt) | Safety rules applied to every output | `Safety_and_Guardrails.txt.docx` |
-| [`Instruction_Samples.txt`](Instruction_Samples.txt) | High-quality instruction examples to mimic | `Instruction_Samples.txt.docx` |
-| [`Gemini_Technical_Specs.md`](Gemini_Technical_Specs.md) | Feasibility checks (10-file KB limit, 1M context window, model versions, thinking levels) | `Gemini_Technical_Specs.docx` |
+| [`Prompt_Frameworks.md`](kb/Prompt_Frameworks.md) | Structure: CO-STAR & 4-Layer frameworks | `Prompt_Frameworks.docx` |
+| [`Reasoning_Techniques.md`](kb/Reasoning_Techniques.md) | Logic: Chain-of-Thought & Deep Thinking patterns | `Reasoning_Techniques.md v2.docx` (v2) |
+| [`Safety_Guardrails.txt`](kb/Safety_Guardrails.txt) | Safety rules applied to every output | `Safety_and_Guardrails.txt.docx` |
+| [`Instruction_Samples.txt`](kb/Instruction_Samples.txt) | High-quality instruction examples to mimic | `Instruction_Samples.txt.docx` |
+| [`Gemini_Technical_Specs.md`](kb/Gemini_Technical_Specs.md) | Feasibility checks (10-file KB limit, 1M context window, model versions, thinking levels) | `Gemini_Technical_Specs.docx` |
 
 All five were converted verbatim from the original DOCX knowledge-base files (first published set). Naming note: the system prompt references `Safety_Guardrails.txt`, while the original KB file on disk was named `Safety_and_Guardrails.txt` — the repo file follows the prompt's reference so the names match; if your live Gem uses the `Safety_and_Guardrails` spelling, keep that name when re-uploading.
 
@@ -118,7 +118,7 @@ All five were converted verbatim from the original DOCX knowledge-base files (fi
 
 - Persian conversation, English instruction content — the split is deliberate (best model performance + best user experience).
 - The `Gemini_Technical_Specs.md` check is what makes designs *feasible* instead of aspirational (file-count limits, context window).
-- Pairs naturally with the Gems it produces — e.g., [narrative-scenario-gem.md](narrative-scenario-gem.md), [project-mentor.md](../../04-business-marketing/project-mentor.md) and [expert-startup-mentor.md](../../04-business-marketing/expert-startup-mentor.md) follow its XML + fail-safe house style.
+- Pairs naturally with the Gems it produces — e.g., [narrative-scenario-gem.md](../narrative-scenario-gem.md), [project-mentor.md](../../../04-business-marketing/project-mentor.md) and [expert-startup-mentor.md](../../../04-business-marketing/expert-startup-mentor.md) follow its XML + fail-safe house style.
 
 ## Versions
 

@@ -1,6 +1,6 @@
 Instruction_Samples.txt: The Architect's Codex and Foundational Knowledge Base
 
-> **یادداشت مخزن:** نالج بیس شماره ۴ جم [the-architect-gem.md](the-architect-gem.md) — اینستراکشنز جم برای «هماهنگی با بهترین شیوه‌ها» به نام `Instruction_Samples.txt` ارجاع می‌دهد. تبدیل‌شده عیناً از نسخه DOCX «Instruction_Samples.txt.docx».
+> **یادداشت مخزن:** نالج بیس شماره ۴ جم [the-architect-gem.md](../the-architect-gem.md) — اینستراکشنز جم برای «هماهنگی با بهترین شیوه‌ها» به نام `Instruction_Samples.txt` ارجاع می‌دهد. تبدیل‌شده عیناً از نسخه DOCX «Instruction_Samples.txt.docx».
 
 ---
 

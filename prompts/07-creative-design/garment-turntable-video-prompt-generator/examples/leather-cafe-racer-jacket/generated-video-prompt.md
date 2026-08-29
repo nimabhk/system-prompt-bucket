@@ -5,7 +5,7 @@ garment: "black pebbled leather cafe racer jacket (CLO 3D)"
 designer: "AMEEN — https://connect.clo-set.com/portfolio/794161/collection/allitems"
 generated_with: "Gemini 3.7 Flash"
 video_generated_with: "Gemini Omni"
-source_prompt: "../garment-turntable-video-prompt-generator.md"
+source_prompt: "../../garment-turntable-video-prompt-generator.md"
 date: 2026-08-29
 ---
 

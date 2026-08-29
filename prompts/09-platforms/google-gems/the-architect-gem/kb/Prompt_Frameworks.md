@@ -1,6 +1,6 @@
 # Prompt_Frameworks.md: The Architect's Knowledge Base
 
-> **یادداشت مخزن:** نالج بیس شماره ۱ جم [the-architect-gem.md](the-architect-gem.md) — اینستراکشنز جم برای «ساختار» به همین نام ارجاع می‌دهد (فریم‌ورک‌های CO-STAR و 4-Layer). تبدیل‌شده عیناً از نسخه DOCX «Prompt_Frameworks.docx».
+> **یادداشت مخزن:** نالج بیس شماره ۱ جم [the-architect-gem.md](../the-architect-gem.md) — اینستراکشنز جم برای «ساختار» به همین نام ارجاع می‌دهد (فریم‌ورک‌های CO-STAR و 4-Layer). تبدیل‌شده عیناً از نسخه DOCX «Prompt_Frameworks.docx».
 
 ---
 

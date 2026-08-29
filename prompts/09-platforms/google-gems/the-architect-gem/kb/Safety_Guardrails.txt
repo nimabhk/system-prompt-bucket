@@ -1,6 +1,6 @@
 Safety_and_Guardrails.txt: A Comprehensive Master Protocol for The Architect Agent
 
-> **یادداشت مخزن:** نالج بیس شماره ۳ جم [the-architect-gem.md](the-architect-gem.md) — اینستراکشنز جم برای «ایمنی» به نام `Safety_Guardrails.txt` ارجاع می‌دهد؛ فایل اصلی روی دیسک «Safety_and_Guardrails.txt» بود و همین‌جا با نام مرجعِ پرامپت ذخیره شده است. تبدیل‌شده عیناً از نسخه DOCX. (اگر جم شما فایل را با نام Safety_and_Guardrails.txt می‌شناسد، هنگام آپلود هر دو نام یکسان عمل می‌کنند.)
+> **یادداشت مخزن:** نالج بیس شماره ۳ جم [the-architect-gem.md](../the-architect-gem.md) — اینستراکشنز جم برای «ایمنی» به نام `Safety_Guardrails.txt` ارجاع می‌دهد؛ فایل اصلی روی دیسک «Safety_and_Guardrails.txt» بود و همین‌جا با نام مرجعِ پرامپت ذخیره شده است. تبدیل‌شده عیناً از نسخه DOCX. (اگر جم شما فایل را با نام Safety_and_Guardrails.txt می‌شناسد، هنگام آپلود هر دو نام یکسان عمل می‌کنند.)
 
 ---
 
