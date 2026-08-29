@@ -32,5 +32,6 @@ language: fa
 
 ## نکات
 
-- نالج بیس این جم پنج فایل است: `Prompt_Frameworks.md`، `Reasoning_Techniques.md`، `Safety_Guardrails.txt`، `Instruction_Samples.txt` و `Gemini_Technical_Specs.md` — باید دقیقاً با همین نام‌ها به نالج بیس جم اتچ شوند (هنوز به ریپو اضافه نشده‌اند).
-- نسخه کامل انگلیسی اینستراکشنز + جدول نقش هر فایل نالج بیس: [the-architect-gem.md](the-architect-gem.md)
+- نالج بیس این جم پنج فایل است و هر پنج‌تا در همین پوشه موجودند (تبدیل‌شده عیناً از DOCXهای اصلی): `Prompt_Frameworks.md` (فریم‌ورک‌های CO-STAR و 4-Layer)، `Reasoning_Techniques.md` (الگوهای استدلال، ورژن ۲)، `Safety_Guardrails.txt` (قواعد ایمنی)، `Instruction_Samples.txt` (نمونه‌اینستراکشنزهای باکیفیت) و `Gemini_Technical_Specs.md` (مشخصات فنی جمینای: سقف ۱۰ فایل، پنجره ۱M توکنی و...). باید دقیقاً با همین نام‌ها به نالج بیس جم اتچ شوند چون پرامپت با همین نام‌ها به آن‌ها ارجاع می‌دهد.
+- نکته نام‌گذاری: پرامپت به `Safety_Guardrails.txt` ارجاع می‌دهد ولی فایل اصلی روی دیسک «Safety_and_Guardrails.txt» بود؛ فایل ریپو از نامِ مرجعِ پرامپت پیروی می‌کند.
+- جدول کامل نقش هر فایل: [the-architect-gem.md](the-architect-gem.md)

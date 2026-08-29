@@ -81,17 +81,17 @@ date: 2026-08-29
 
 ## Knowledge Base
 
-The Gem expects **five** knowledge-base files, referenced by name in the system prompt:
+The Gem's five knowledge-base files are all in this folder, referenced by name in the system prompt. Upload them as the Gem's **Knowledge** exactly under these names (the prompt references them verbatim):
 
-| File | Role |
-|------|------|
-| `Prompt_Frameworks.md` | Structure frameworks (CO-STAR, 4-Layer) |
-| `Reasoning_Techniques.md` | Chain-of-Thought / Deep Thinking patterns |
-| `Safety_Guardrails.txt` | Safety rules applied to every output |
-| `Instruction_Samples.txt` | High-quality instruction examples to mimic |
-| `Gemini_Technical_Specs.md` | Feasibility checks (file limits, context window, model features) |
+| Repo file | Role in the Gem | Source (original KB file) |
+|-----------|-----------------|---------------------------|
+| [`Prompt_Frameworks.md`](Prompt_Frameworks.md) | Structure: CO-STAR & 4-Layer frameworks | `Prompt_Frameworks.docx` |
+| [`Reasoning_Techniques.md`](Reasoning_Techniques.md) | Logic: Chain-of-Thought & Deep Thinking patterns | `Reasoning_Techniques.md v2.docx` (v2) |
+| [`Safety_Guardrails.txt`](Safety_Guardrails.txt) | Safety rules applied to every output | `Safety_and_Guardrails.txt.docx` |
+| [`Instruction_Samples.txt`](Instruction_Samples.txt) | High-quality instruction examples to mimic | `Instruction_Samples.txt.docx` |
+| [`Gemini_Technical_Specs.md`](Gemini_Technical_Specs.md) | Feasibility checks (10-file KB limit, 1M context window, model versions, thinking levels) | `Gemini_Technical_Specs.docx` |
 
-> **Status:** these five files are not yet in the repo — they will be added to this folder when provided. Upload them as the Gem's Knowledge exactly under the names above, since the prompt references them verbatim.
+All five were converted verbatim from the original DOCX knowledge-base files (first published set). Naming note: the system prompt references `Safety_Guardrails.txt`, while the original KB file on disk was named `Safety_and_Guardrails.txt` — the repo file follows the prompt's reference so the names match; if your live Gem uses the `Safety_and_Guardrails` spelling, keep that name when re-uploading.
 
 ## Workflow (What It Does)
 
@@ -122,4 +122,4 @@ The Gem expects **five** knowledge-base files, referenced by name in the system 
 
 ## Versions
 
-- v1.0.0 (2026-08-29): Initial import from the Gemini Gem (knowledge-base files pending).
+- v1.0.0 (2026-08-29): Initial import from the Gemini Gem; all five knowledge-base files added 2026-08-30.

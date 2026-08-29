@@ -90,8 +90,12 @@ prompt-vault/
 │   │   │   ├── narrative-scenario-gem.md       # Social narrative architect Gem (سناریو روایی)
 │   │   │   ├── narrative-scenario-gem.fa.md
 │   │   │   ├── strategic-relations-analyst-gem.md  # Relations strategist Gem (تحلیلگر استراتژیک روابط)
-│   │   │   ├── the-architect-gem.md            # Gem-builder meta Gem (5 KB files pending)
-│   │   │   └── the-architect-gem.fa.md
+│   │   │   ├── the-architect-gem.md            # Gem-builder meta Gem (EN + .fa.md)
+│   │   │   ├── Prompt_Frameworks.md            # ┐
+│   │   │   ├── Reasoning_Techniques.md         # │ five knowledge-base files
+│   │   │   ├── Safety_Guardrails.txt           # │ for the-architect-gem
+│   │   │   ├── Instruction_Samples.txt         # │ (referenced by name in its prompt)
+│   │   │   └── Gemini_Technical_Specs.md       # ┘
 │   │   ├── openai-gpts/
 │   │   │   └── startup-validator-gpt.md
 │   │   └── rtl-ltr-qa-stress-test.md
