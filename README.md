@@ -77,14 +77,14 @@ prompt-vault/
 │   ├── 09-platforms/           # Platform-specific (GPTs, Gems, etc.)
 │   │   ├── google-gems/
 │   │   │   ├── english-tutor-gem.md
-│   │   │   ├── english-tutor-gem.fa.md
-│   │   │   ├── persian-lyrics-diacritics-gem.md
-│   │   │   ├── persian-lyrics-diacritics-gem.fa.md
-│   │   │   └── tarane-irani.md  # knowledge base for the lyrics gem
+│   │   │   └── english-tutor-gem.fa.md
 │   │   ├── openai-gpts/
 │   │   │   └── startup-validator-gpt.md
 │   │   └── rtl-ltr-qa-stress-test.md
 │   └── 10-translation-localization/  # Translation, localization, cultural adaptation
+│       ├── persian-lyrics-diacritics-gem.md
+│       ├── persian-lyrics-diacritics-gem.fa.md
+│       └── tarane-irani.md  # knowledge base for the lyrics gem
 ├── templates/
 │   ├── prompt-template.md      # English template
 │   └── prompt-template.fa.md   # Persian template
