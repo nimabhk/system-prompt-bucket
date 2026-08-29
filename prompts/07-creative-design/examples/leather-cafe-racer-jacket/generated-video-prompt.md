@@ -3,6 +3,7 @@ title: "Generated Stage-2 Prompt — Black Leather Cafe Racer Jacket"
 description: "Real output of the garment-turntable-video-prompt-generator, ready to paste into an image-to-video model together with the front reference image."
 garment: "black pebbled leather cafe racer jacket (CLO 3D)"
 generated_with: "Gemini 3.7 Flash"
+video_generated_with: "Gemini Omni"
 source_prompt: "../garment-turntable-video-prompt-generator.md"
 date: 2026-08-29
 ---
@@ -35,4 +36,4 @@ human body, visible mannequin, avatar, flesh, head, hands, limbs, garment morphi
 
 ## Result
 
-Sent to an image-to-video model together with [`input-front-view.png`](input-front-view.png); output: [`output-seamless-360-turntable.mp4`](output-seamless-360-turntable.mp4) — a seamless 360° turntable that keeps the jacket's design identity stable through the full orbit.
+Rendered with **Gemini Omni** from this prompt together with [`input-front-view.png`](input-front-view.png); output: [`output-seamless-360-turntable.mp4`](output-seamless-360-turntable.mp4) — a seamless 360° turntable that keeps the jacket's design identity stable through the full orbit.

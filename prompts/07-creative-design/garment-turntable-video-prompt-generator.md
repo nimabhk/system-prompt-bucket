@@ -62,6 +62,8 @@ This is a **meta-prompt**: instead of describing a video directly, it makes the 
 
 Real run of this prompt on a CLO 3D cafe racer jacket (see [`examples/leather-cafe-racer-jacket/`](examples/leather-cafe-racer-jacket/)).
 
+> The **System Prompt above is the actual product** — the reference images, the generated prompt, and the video below are all just one sample run of it.
+
 **Input — reference images:**
 
 | Front | Side | Back |
@@ -92,7 +94,7 @@ Negative Prompt:
 human body, visible mannequin, avatar, flesh, head, hands, limbs, garment morphing, shifting seams, disappearing zippers, migrating pockets, texture swimming, flickering, changing leather grain, moving sleeves, fluttering fabric, cloth simulation movement, wind, physics deformation, camera wobble, fast panning, zoom in, zoom out, color changes, low resolution, motion blur, distorted geometry, extra zippers, missing snap buttons, background change, light leaks.
 ````
 
-**Resulting video** — seamless 360° turntable, design identity preserved:
+**Resulting video** — seamless 360° turntable, design identity preserved (rendered with **Gemini Omni** from the Stage-2 prompt + the front reference image):
 [`examples/leather-cafe-racer-jacket/output-seamless-360-turntable.mp4`](examples/leather-cafe-racer-jacket/output-seamless-360-turntable.mp4)
 
 ## Notes & Best Practices
@@ -101,7 +103,7 @@ human body, visible mannequin, avatar, flesh, head, hands, limbs, garment morphi
 - **Always pair the Stage-2 prompt with the main image**: the prompt semantically anchors the video model; the image anchors it geometrically. Using both is what keeps the identity stable across the orbit.
 - **Keep the negative prompt**: it is generated against the exact features listed in the positive prompt (e.g., "disappearing zippers" for a zip-heavy jacket). It is the main defense against morphing seams and migrating pockets mid-orbit.
 - **Garment static, camera moving**: the prompt deliberately locks the garment "geometrically in place" and moves only the camera — asking for wind, walking, or cloth simulation will break identity fidelity.
-- Stage 1 works best with multimodal models that handle multi-image input well (e.g., Gemini); Stage 2 works with any image-to-video model that accepts a prompt + start image.
+- Stage 1 works best with multimodal models that handle multi-image input well (e.g., Gemini); Stage 2 works with any image-to-video model that accepts a prompt + start image (validated with Gemini Omni).
 
 ## Version History
 
