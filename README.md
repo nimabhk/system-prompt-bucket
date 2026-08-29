@@ -69,6 +69,8 @@ prompt-vault/
 │   ├── 05-education-tutor/     # Education, tutoring, learning assistance
 │   ├── 06-productivity-life/   # Productivity, life hacks, planning
 │   ├── 07-creative-design/     # Creativity, design thinking, art
+│   │   ├── garment-turntable-video-prompt-generator.md
+│   │   └── examples/leather-cafe-racer-jacket/  # Input images, generated prompt, output video
 │   ├── 08-agents-automation/   # AI agents, automation workflows
 │   │   ├── autonomous-research-agent.md
 │   │   └── huggingface-model-extractor.md
