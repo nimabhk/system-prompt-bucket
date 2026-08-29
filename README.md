@@ -151,7 +151,7 @@ Rules:
 - The folder name is the full name of the system prompt (kebab-case, matching the `.md` filename).
 - The two prompt files (`.md` + `.fa.md`) sit at the **root** of that folder — never inside `kb/`.
 - Knowledge-base and reference files go in the `kb/` subfolder and keep the exact filenames the system prompt references (Gems match knowledge files by name).
-- Example inputs/outputs and media go in the `examples/` subfolder, one subfolder per example run.
+- Example runs — sample/test inputs, outputs, and media (images, videos, audio) — go in the `examples/` subfolder, one subfolder per example run.
 - Never leave extra files loose in the category folder — that is what clutters it.
 - Link to `kb/` and `examples/` files with paths relative to the prompt file (e.g. `kb/my-doc.md`).
 

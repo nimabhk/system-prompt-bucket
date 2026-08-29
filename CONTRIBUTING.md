@@ -15,7 +15,7 @@ prompts/<category>/my-prompt-name/
 ├── my-prompt-name.md        # English prompt
 ├── my-prompt-name.fa.md     # Persian version (optional)
 ├── kb/                      # ALL knowledge-base / reference files
-└── examples/                # example runs, inputs/outputs, media (optional)
+└── examples/                # sample/test runs, inputs/outputs, media (optional)
 ```
 
 - The folder is named exactly after the prompt (kebab-case, same as the `.md` filename).
