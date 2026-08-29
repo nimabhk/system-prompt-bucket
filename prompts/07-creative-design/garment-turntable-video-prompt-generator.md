@@ -105,6 +105,10 @@ human body, visible mannequin, avatar, flesh, head, hands, limbs, garment morphi
 - **Garment static, camera moving**: the prompt deliberately locks the garment "geometrically in place" and moves only the camera — asking for wind, walking, or cloth simulation will break identity fidelity.
 - Stage 1 works best with multimodal models that handle multi-image input well (e.g., Gemini); Stage 2 works with any image-to-video model that accepts a prompt + start image (validated with Gemini Omni).
 
+## Credits
+
+- 3D garment design & reference artwork: **AMEEN** — [CLO-SET portfolio](https://connect.clo-set.com/portfolio/794161/collection/allitems)
+
 ## Version History
 
 - v1.0.0 — Initial release: two-stage workflow (image audit → bespoke turntable prompt), validated end-to-end on a CLO 3D leather cafe racer jacket with a 360° turntable output.
