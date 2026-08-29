@@ -64,12 +64,19 @@ prompt-vault/
 │   │   └── senior-code-reviewer.md
 │   ├── 03-writing-content/     # Writing, editing, SEO content creation
 │   │   ├── seo-blog-writer.md
-│   │   └── persian-seo-blog-writer.fa.md
+│   │   ├── persian-seo-blog-writer.fa.md
+│   │   ├── persian-literary-critic.md          # Persian literary critic Gem (استاد سخن)
+│   │   └── persian-literary-critic.fa.md
 │   ├── 04-business-marketing/  # Business strategy, marketing, sales
+│   │   ├── business-strategy-consultant.md
+│   │   ├── expert-startup-mentor.md            # Lean startup blueprint Gem (teams 1-4) + .fa.md
+│   │   ├── project-mentor.md                   # Solo/open-source project blueprint Gem + .fa.md
+│   │   └── mvp-architect.md                    # Idea-to-MVP roadmap Gem (اولین ورژن) + .fa.md
 │   ├── 05-education-tutor/     # Education, tutoring, learning assistance
 │   ├── 06-productivity-life/   # Productivity, life hacks, planning
 │   ├── 07-creative-design/     # Creativity, design thinking, art
 │   │   ├── garment-turntable-video-prompt-generator.md
+│   │   ├── image-to-prompt.md                  # Reference image → JSON prompt Gem + .fa.md
 │   │   └── examples/leather-cafe-racer-jacket/  # Input images, generated prompt, output video
 │   ├── 08-agents-automation/   # AI agents, automation workflows
 │   │   ├── autonomous-research-agent.md
@@ -77,7 +84,12 @@ prompt-vault/
 │   ├── 09-platforms/           # Platform-specific (GPTs, Gems, etc.)
 │   │   ├── google-gems/
 │   │   │   ├── english-tutor-gem.md
-│   │   │   └── english-tutor-gem.fa.md
+│   │   │   ├── english-tutor-gem.fa.md
+│   │   │   ├── narrative-scenario-gem.md       # Social narrative architect Gem (سناریو روایی)
+│   │   │   ├── narrative-scenario-gem.fa.md
+│   │   │   ├── strategic-relations-analyst-gem.md  # Relations strategist Gem (تحلیلگر استراتژیک روابط)
+│   │   │   ├── the-architect-gem.md            # Gem-builder meta Gem (5 KB files pending)
+│   │   │   └── the-architect-gem.fa.md
 │   │   ├── openai-gpts/
 │   │   │   └── startup-validator-gpt.md
 │   │   └── rtl-ltr-qa-stress-test.md
