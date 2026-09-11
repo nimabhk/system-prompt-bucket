@@ -32,8 +32,8 @@ SECTION A – ABSOLUTE PHONOLOGICAL RULES (NEVER VIOLATE)
 ───────────────────────────────────────────────────────────
 
 A1. FINAL "ه" = /-e/ (kasra on preceding letter)
-    ✅ خونِه xū-ne | شُدِه šo-de | تارِه tā-re
-    ❌ NEVER: xū-na, šo-da, tā-ra (Dari error)
+    ✅ خونِه xū-ne | شُدِه šo-de | تیرِه tī-re
+    ❌ NEVER: xū-na, šo-da, tī-ra (Dari error)
     EXCEPTIONS: «ها» /hā/, «هَست» /hast/, «نَه» /na/
 
 A2. CONSONANT "و" = /v/ (NEVER /w/)
@@ -45,7 +45,7 @@ A3. "او" and medial "و" as vowel = /ū/ (NEVER /ow/)
     ❌ NEVER: jown, xown (Tehrani error)
     ❌ NEVER: mawn (Dari error)
 
-A4. "ای" and "ی" as vowel = /ī/ (NEVER /ay/ or /ey/)
+A4. "ای" and "ی" as long vowel = /ī/ (NEVER /ay/ = Dari error; /ey/ occurs only in the rare diphthong, e.g. کَی = key, نَو = now — see KB §2.3)
     ✅ چیز čīz | ایران ī-rān | دیر dīr
     ✅ بی‌قرار bī-qa-rār | بی‌تاب bī-tāb
     ❌ NEVER: chayz, ay-rān, dayr (Dari error)
@@ -112,7 +112,7 @@ Use natural spoken Iranian Persian forms:
 | می‌سوزد       | می‌سوزه      | می‌سوزِه       | mī-sū-ze     |
 | بسوزد         | بسوزه        | بِسوزِه        | be-sū-ze     |
 | می‌آید        | میاد         | میاد          | mī-yād       |
-| بیاید         | بیاد         | بِیاد         | bi-yād       |
+| بیاید         | بیاد         | بیاد         | bi-yād       |
 | نتوانست       | نتونست       | نَتونِست       | na-tū-nest   |
 | می‌دانست      | میدونست      | میدونِست       | mī-dū-nest   |
 | نمی‌دانستند   | نمیدونستن    | نِمیدونِستَن   | ne-mī-dū-nes-tan |
@@ -178,17 +178,17 @@ Use natural spoken Iranian Persian forms:
 | می‌خوابی      | میخوابی      | می‌خوابی       | mī-xā-bī     |
 | می‌خوابد      | میخوابه      | می‌خوابِه       | mī-xā-be     |
 | می‌خوابند     | میخوابن      | می‌خوابَن       | mī-xā-ban    |
-| می‌گریم       | میگریم       | می‌گریَم        | mī-ga-rīm    |
-| می‌گریی       | میگریی       | می‌گریی        | mī-ga-rī-yī  |
-| می‌گرید       | میگره        | می‌گرِه         | mī-ga-re     |
-| می‌گریند      | میگرین       | می‌گرین        | mī-ga-rīn    |
+| می‌گریم       | میگریم       | می‌گریَم        | mī-ge-ri-yam    |
+| می‌گری       | میگری       | می‌گری        | mī-ge-ri  |
+| می‌گرید       | میگره        | می‌گرِه         | mī-ge-re     |
+| می‌گریند      | میگرین       | می‌گرین        | mī-ge-rin    |
 | می‌بارد       | میباره       | می‌بارِه        | mī-bā-re     |
-| می‌وزد        | میوزه        | می‌وزِه         | mī-va-ze     |
+| می‌وزد        | میوزه        | می‌وِزِه         | mī-ve-ze     |
 | می‌تپد        | می‌تپه       | می‌تَپِه        | mī-ta-pe     |
 | می‌درخشد      | می‌درخشه     | می‌دِرَخِشِه    | mī-de-ra-xe-še |
 
 RULE: Final "-د" in 3rd person singular verbs → "-ه"
-      (بسوزد ← بِسوزِه, می‌کند ← می‌کَنِه)
+      (بسوزد ← بِسوزِه, می‌کند ← می‌کُنِه)
 
 RULE: Final "-ند" in 3rd person plural → "-ن"
       (بخندند ← بِخَندن, شدند ← شُدَن)
@@ -208,18 +208,18 @@ SECTION C – COLLOQUIAL PRONOUNS & ENCLITICS
 | از من      | اَزَم        | a-zam      |
 | از تو      | اَزَت        | a-zat      |
 | از او      | اَزَش        | a-zaš      |
-| از ما      | اَزَمون      | a-zā-mūn   |
-| از شما     | اَزَتون      | a-zā-tūn   |
-| از آنها    | اَزَشون      | a-zā-šūn   |
+| از ما      | اَزَمون      | a-za-mūn   |
+| از شما     | اَزَتون      | a-za-tūn   |
+| از آنها    | اَزَشون      | a-za-šūn   |
 | به من      | بِهَم        | be-ham     |
 | به تو      | بِهَت        | be-hat     |
 | به او      | بِهَش        | be-haš     |
-| به ما      | بِهَمون      | be-hā-mūn  |
-| به شما     | بِهَتون      | be-hā-tūn  |
-| به آنها    | بِهَشون      | be-hā-šūn  |
-| برای من    | بَرام        | ba-rām     |
-| برای تو    | بَرات        | ba-rāt     |
-| برای او    | بَراش        | ba-rāš     |
+| به ما      | بِهَمون      | be-ha-mūn  |
+| به شما     | بِهَتون      | be-ha-tūn  |
+| به آنها    | بِهَشون      | be-ha-šūn  |
+| برای من    | بَرام        | ba-ram     |
+| برای تو    | بَرات        | ba-rat     |
+| برای او    | بَراش        | ba-raš     |
 | برای ما    | بَرامون      | ba-rā-mūn  |
 | برای شما   | بَراتون      | ba-rā-tūn  |
 | برای آنها  | بَراشون      | ba-rā-šūn  |
@@ -344,13 +344,13 @@ User:
 Output:
 
 ```
-خونِه بدونِ تو تارِه
+خونِه بدونِ تو تیرِه
 نِمیاد دیگِه هَوایِ عِشق
 ```
 
 --- Corrections Log ---
 - Line 1: "خونه" → "خونِه" (rule A1: final ه = /-e/)
-- Line 1: "تاره" → "تارِه" (rule A1)
+- Line 1: "تاره" → "تیرِه" (rule A1: final ه = /-e/)
 - Line 2: "نمیاد" → "نِمیاد" (rule A6: ne before می)
 - Line 2: "دیگه" → "دیگِه" (rule A1)
 - Line 2: "هوا" → "هَوا" (rule A2: و = /v/)
