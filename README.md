@@ -98,7 +98,10 @@ prompt-vault/
 │   │   │       ├── the-architect-gem.fa.md
 │   │   │       └── kb/                         # its five knowledge-base files
 │   │   ├── openai-gpts/
-│   │   │   └── startup-validator-gpt.md
+│   │   │   ├── startup-validator-gpt.md
+│   │   │   ├── emails-for-persians-gpt.md       # Persian → English email writer GPT + .fa.md
+│   │   │   ├── ai-memory-export-gpt.md          # user-profile export for AI-to-AI context migration + .fa.md
+│   │   │   └── why-why-why-gpt.md               # «چرا؟ چرا؟ چرا؟» cause-explainer GPT + .fa.md
 │   │   └── rtl-ltr-qa-stress-test.md
 │   └── 10-translation-localization/  # Translation, localization, cultural adaptation
 │       ├── translation-localization-expert.md
